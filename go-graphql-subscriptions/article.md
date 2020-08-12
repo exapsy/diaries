@@ -93,3 +93,6 @@ http.Handle("/subscriptions", graphqlWSHandler)
 As stated, the assumption is that the websocket connection uses **"graphql-ws" protocol**, or else, graphql wont be able to understand the connection at all. Its like trying to write `JavaScript` on a `C++` compiler. The protocol must be precisly followed on the custom implementation.
 
 So that's where you could use this library `github.com/functionalfoundry/graphqlws` to avoid writing your own custom websocket graphql subscription handler.
+Here's a great read if you wanna use this library.
+
+[Medium - Functional-Foundry - Building Graphql servers with subscriptions in go](https://medium.com/functional-foundry/building-graphql-servers-with-subscriptions-in-go-2a60f11dc9f5)
